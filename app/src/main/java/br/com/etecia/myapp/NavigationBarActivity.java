@@ -31,7 +31,10 @@ public class NavigationBarActivity extends AppCompatActivity {
         bottomNavigationView = findViewById(R.id.bottomNavView);
 
         AdapterViewPagerNavView adapter = new AdapterViewPagerNavView(this);
-        
+
+        viewPager2.setAdapter(adapter);
+
+
 
     }
 }
