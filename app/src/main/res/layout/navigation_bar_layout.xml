@@ -8,7 +8,7 @@
     tools:context=".NavigationBarActivity">
 
     <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/ViewPagerNavView"
+        android:id="@+id/viewPagerNavView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/bottomNavView" />
