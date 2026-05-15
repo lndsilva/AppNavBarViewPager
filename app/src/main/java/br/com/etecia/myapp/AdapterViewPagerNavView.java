@@ -14,22 +14,23 @@ public class AdapterViewPagerNavView extends FragmentStateAdapter {
     @Override
     public Fragment createFragment(int position) {
         switch (position) {
-            case 1:
+            case 0:
                 return new HomeFragment();
-            case 2:
+            case 1:
                 return new DashboardFragment();
-            case 3:
+            case 2:
                 return new SettingsFragment();
+            case 3:
+                return new ProfileFragment();
             case 4:
-                return new ProfileFragment();
-            case 5:
-                return new ProfileFragment();
+                return new UsersFragment();
+            default:
+                return new HomeFragment();
         }
-        return null;
     }
 
     @Override
     public int getItemCount() {
-        return 4;
+        return 5;
     }
 }
