@@ -4,6 +4,22 @@
         android:id="@+id/mHome"
         android:icon="@drawable/baseline_home"
         android:title="Home" />
+    <item
+        android:id="@+id/mDashboard"
+        android:icon="@drawable/baseline_dashboard"
+        android:title="Dashboard" />
+    <item
+        android:id="@+id/mSettings"
+        android:icon="@drawable/baseline_settings"
+        android:title="Settings" />
+    <item
+        android:id="@+id/mProfile"
+        android:icon="@drawable/baseline_person"
+        android:title="Profile" />
+    <item
+        android:id="@+id/mUsers"
+        android:icon="@drawable/baseline_supervised_user_circle"
+        android:title="Users" />
 
 
 </menu>
