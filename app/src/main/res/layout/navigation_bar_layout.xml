@@ -7,13 +7,18 @@
     android:layout_height="match_parent"
     tools:context=".NavigationBarActivity">
 
- <com.google.android.material.bottomnavigation.BottomNavigationView
-     android:layout_width="match_parent"
-     android:layout_height="wrap_content"
-     android:id="@+id/bottomNavView"
-     app:menu="@menu/menu_navbar"
-     app:labelVisibilityMode="labeled"
-     android:layout_alignParentBottom="true"
-     />
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/ViewPagerNavView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomNavView" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/menu_navbar" />
 
 </RelativeLayout>
