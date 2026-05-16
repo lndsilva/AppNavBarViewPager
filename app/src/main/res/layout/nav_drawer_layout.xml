@@ -30,11 +30,14 @@
     </LinearLayout>
 
     <com.google.android.material.navigation.NavigationView
-        app:headerLayout="@layout/header_navdrawer"
         android:id="@+id/navViewDrawer"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        app:menu="@menu/menu_navbar"
-        android:layout_gravity="start" />
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header_navdrawer"
+        app:itemIconTint="#3F51B5"
+        app:itemTextColor="#000000"
+        android:background="#FFFFFF"
+        app:menu="@menu/menu_navbar" />
 
 </androidx.drawerlayout.widget.DrawerLayout>
