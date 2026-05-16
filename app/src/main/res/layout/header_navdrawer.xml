@@ -8,10 +8,21 @@
     android:padding="16dp">
 
     <TextView
+        android:id="@+id/txtProfile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Profile"
         android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sac@profile.com.br"
+        android:textColor="#DDFFFFFF"
+        android:textSize="18sp"
         android:textStyle="bold" />
 
 
